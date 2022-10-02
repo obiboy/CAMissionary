@@ -115,13 +115,22 @@
   display: inline-block;
   border: 5px solid black;
   background: white;
-  height: 80%;
+  height: 90%;
   width: 70%;
   top: -20%;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
+}
+
+.floating-block img{
+  max-height: 100%;
+  width: auto;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 50%;
+  top: 50%;
 }
 
 .home-section{
@@ -139,7 +148,7 @@
 .impact-section{
   position: relative;
   background: var(--gold);
-  height: 60%;
+  height: 80%;
   width: 1500px;
   border: 2px solid #535559;
   left: 0;
@@ -913,6 +922,15 @@ input[name=donateOther] {
   height: 28%;
 }
 
+.floaterBlock h4{
+  font-weight: bolder;
+  font-size: 175%;
+}
+
+.floaterBlock p{
+  font-size: 150%;
+}
+
 #follow-btn{
   width: 97%;
   height: 100%;
@@ -990,7 +1008,7 @@ input[name=donateOther] {
   display: flex;
   /*border: 5px solid black;*/
   text-align: center;
-  height: 35%;
+  height: 25%;
   width: 70%;
   bottom: 5%;
   margin-left: auto;
@@ -1181,7 +1199,7 @@ input[name=donateOther] {
 .text {
   background-color: rgba(0,0,0,0.5);
   color: white;
-  font-size: 18px;
+  font-size: 24px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
