@@ -277,7 +277,8 @@ input[type=submit]:hover {
   width: 80%;
   height: 50%;
   /*border: 3px solid red;*/
-  margin: 8% 2% 2% 0;
+  margin: 2% 8% 5% 8%;
+  top: 0;
 
 }
 
